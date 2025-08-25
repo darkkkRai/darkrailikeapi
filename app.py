@@ -73,8 +73,7 @@ def like():
     return jsonify({
         
         
-        "credits":"@darkkkrai
-",
+        "credits":"@darkkkrai",
         "likes_added": after_like - before_like,
         "likes_before": before_like,
         "likes_after": after_like,
